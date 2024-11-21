@@ -3,10 +3,10 @@ import { NavbarItem } from '@nextui-org/react';
 
 const Header = () => {
   return (
-    <>
-      <Navbar shouldHideOnScroll isBlurred={false} className="bg-transparent w-full container py-[29px]">
+    <section className="container">
+      <Navbar shouldHideOnScroll maxWidth='full' isBlurred={false} className="bg-transparent w-full py-[29px] flex justify-between items-center">
         <NavbarBrand>
-          <img src="/logo.png" alt="logo" className="max-w-[356px]" />
+          <img src="/logo.png" alt="logo" className="w-5/6 max-w-[356px] object-contain" />
         </NavbarBrand>
 
         <NavbarContent justify='end'>
@@ -15,7 +15,7 @@ const Header = () => {
           </NavbarItem>
         </NavbarContent>
       </Navbar>
-    </>
+    </section>
   )
 }
 
