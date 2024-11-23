@@ -9,5 +9,5 @@
 }
 
 .paragraph {
-  @apply text-xs lg:text-sm xl:text-base text-secondary;
+  @apply text-sm xl:text-base text-secondary;
 }
