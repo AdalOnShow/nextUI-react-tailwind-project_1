@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         mPlus1: ["M PLUS 1", "sans - serif"],
+        poppins: ["Poppins", "sans-serif"]
       },
     },
   },
