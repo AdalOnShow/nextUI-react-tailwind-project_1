@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="bg-[#2928343D] backdrop-blur-md backdrop-brightness-[.9] pt-[60px] pb-[135px]">
       <div className="container flex flex-wrap gap-8">
-        <div className="min-w-[392px]">
+        <div className="min-w-[300px] w-[392px]">
           <a href="/" className="">
             <img src="/footer-logo.svg" alt="footer logo" className="w-[162px] h-6 object-contain" />
           </a>
