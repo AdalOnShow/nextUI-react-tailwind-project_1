@@ -5,6 +5,8 @@ import FindCard from "./sections/FindCard";
 import Hero from './sections/Hero';
 import Offer from "./sections/Offer";
 import Vision from "./sections/Vision";
+import Faq from "./sections/Faq";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <CreateCard />
       <FindCard />
       <Review />
+      <Faq />
+      <Footer />
     </main>
   )
 }

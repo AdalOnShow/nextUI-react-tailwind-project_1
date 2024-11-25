@@ -5,7 +5,7 @@ const Vision = () => {
       <div className="bg-[#23252a] rounded-[32px] px-4 sm:px-16 py-4 sm:py-0 sm:pt-[22px] sm:pb-[31px] space-y-2 xl:space-y-0">
 
         <h4 className="font-bold text-3xl md:text-[30px] text-center">Wern&apos;s Vision</h4>
-        <p className="font-medium text-xl md:text-2xl lg:text-[40px] sm:leading-[56px] max-w-[900px] mx-auto text-center bg-gradient-to-r from-[#772AB3] to-[#C753FE] text-transparent bg-clip-text">Building a financial future where everyone has
+        <p className="font-medium text-xl md:text-2xl lg:text-[40px] sm:!leading-[56px] max-w-[900px] mx-auto text-center bg-gradient-to-r from-[#772AB3] to-[#C753FE] text-transparent bg-clip-text">Building a financial future where everyone has
           access to secure and effortless digital money.</p>
       </div>
     </section>

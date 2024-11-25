@@ -40,7 +40,7 @@ export const ReviewCard = [
   },
 ]
 
-export const accordionContent = [
+export const faqContent = [
   {
     id: 1,
     title: "What credit score do I need to apply for a credit card?",
@@ -75,5 +75,47 @@ export const accordionContent = [
     id: 7,
     title: "Is my credit card information secure?",
     content: "To create a financial future where everyone has access to secure and effortless digital money.",
+  },
+]
+
+export const footerLinks = [
+  {
+    id: 1,
+    title: "About Us",
+    links: [
+      { title: "Investors", url: "#" },
+      { title: "Features", url: "#" },
+      { title: "Book a demo", url: "#" },
+      { title: "Security ", url: "#" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Products",
+    links: [
+      { title: "Credits Cards", url: "#" },
+      { title: "Gift Cards", url: "#" },
+      { title: "Savings accounts", url: "#" },
+      { title: "NFT ", url: "#" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Useful Links",
+    links: [
+      { title: "Free rewards", url: "#" },
+      { title: "Documentation", url: "#" },
+      { title: "Affiliate program", url: "#" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Social",
+    links: [
+      { title: "Changelog", url: "#" },
+      { title: "License", url: "#" },
+      { title: "Site Maps", url: "#" },
+      { title: "News ", url: "#" },
+    ],
   },
 ]
